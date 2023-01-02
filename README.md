@@ -31,7 +31,7 @@
 <br>
 
 ### 목차
-- [1. 라즈베리파이와 OpenCV 연동](#1---------opencv---)
+- [1. 라즈베리파이와 OpenCV 연동](#1.-라즈베리파이와-opencv-연동)
 - [2. 라즈베리파이 Camera Module 연결 및 테스트](#2--------camera-module---------)
 - [3. 얼굴 인식 모델 구현 - picamera_detect.py](#3---------------picamera-detectpy)
 - [4. 아두이노-라즈베리파이 연동을 위한 Firmata Protocol 통신 환경 구축](#4--------------------firmata-protocol---------)

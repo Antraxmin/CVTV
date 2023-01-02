@@ -13,7 +13,7 @@
 
 ## 프로젝트 구조
 > 도난 방지 및 침입 감지 시스템 구축을 위한 IoT CCTV 프로젝트의 초기 버전으로, 지속적인 업데이트를 진행할 예정이다. 
-<img src="https://user-images.githubusercontent.com/77287236/210170447-07778d38-6f45-4b98-930c-3aa8db6060cd.JPG" width="550" height="375"/>
+<img src="https://user-images.githubusercontent.com/77287236/210170447-07778d38-6f45-4b98-930c-3aa8db6060cd.JPG"/>
 
 
 본 프로젝트는 Raspberry Pi, Arduino, OpenCV를 연동하여 실시간으로 침입자를 탐지하는 기능을 제공한다. 
@@ -25,7 +25,7 @@
 
 <br><br>
 
-## 🛠️ 개발 기능
+## 💻 개발 기능
 > 프로젝트의 모든 기능은 라즈베리파이 3B+에 내장된 Raspbian OS 환경에서 개발하였다. 
 
 <br>

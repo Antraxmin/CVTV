@@ -1,4 +1,3 @@
-
 # 프로젝트 소개
 - 프로젝트명: OpenCV + Raspberry Pi + Arduino를 이용한 실시간 얼굴 인식 CCTV 
 - 개발기간: 22.12.12 ~ 22.12.13
@@ -32,11 +31,11 @@
 <br>
 
 ### 목차
-1. [라즈베리파이와 OpenCV 연동](#1.-라즈베리파이와-OpenCV-연동)
-2. [라즈베리파이 Camera Module 연결 및 테스트](#2.-라즈베리파이-Camera-Module-연결-및-테스트)
-3. [얼굴 인식 모델 구현](#3.-얼굴-인식-모델-구현---picamera_detect.py)
-4. [아두이노-라즈베리파이 연동을 위한 Firmata Protocol 통신 환경 구축](#4.-아두이노-라즈베리파이-연동을-위한-Firmata-Protocol-통신-환경-구축)
-5. [OpenCV 얼굴 인식으로 아두이노 제어](#5.-OpenCV-얼굴-인식으로-아두이노-제어)
+- [1. 라즈베리파이와 OpenCV 연동](#1---------opencv---)
+- [2. 라즈베리파이 Camera Module 연결 및 테스트](#2--------camera-module---------)
+- [3. 얼굴 인식 모델 구현 - picamera_detect.py](#3---------------picamera-detectpy)
+- [4. 아두이노-라즈베리파이 연동을 위한 Firmata Protocol 통신 환경 구축](#4--------------------firmata-protocol---------)
+- [5. OpenCV 얼굴 인식으로 아두이노 제어](#5-opencv----------------)
 <br><br>
 
 ### 1. 라즈베리파이와 OpenCV 연동
@@ -86,7 +85,7 @@ frame = cv2.flip(frame,1)
 ```
 <br>
 
-이미지 처리 속도 향상을 위해 BGR 형태의 원본 영상 프레임을 __grayScale__로 변환하였다. 
+이미지 처리 속도 향상을 위해 BGR 형태의 원본 영상 프레임을 __grayScale__ 로 변환하였다. 
 ```
 gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 ```
